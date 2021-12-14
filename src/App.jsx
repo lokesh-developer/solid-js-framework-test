@@ -1,8 +1,11 @@
+import { Router } from 'solid-app-router';
+import Pages from './router/pages';
+
 function App() {
   return (
-    <>
-      <h1>Hello Solid</h1>
-    </>
+    <Router>
+      <Pages />
+    </Router>
   );
 }
 
